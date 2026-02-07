@@ -1,0 +1,1 @@
+just test of vite js for my future projects
