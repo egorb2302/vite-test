@@ -1,5 +1,5 @@
 * {
-  font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -7,6 +7,8 @@ body {
 
   display: flex;
   justify-content: center;
+
+  overflow-y: hidden;
 }
 
 div { 
@@ -14,24 +16,11 @@ div {
   flex-direction: column;
   align-items: center;
 
-  margin-top: 200px;
-
   position: relative;
 }
 
-img {
-  width: 300px;
-  height: 300px;
-}
-
 p {
-  font-size: 16px;
+  width: 1000px;
+  font-size: 32px;
   font-weight: 700;
-}
-
-a {
-  width: 300px;
-  height: 300px;
-
-  position: absolute;
 }
